@@ -9,6 +9,7 @@ import QrCodeGenerator from "./components/QrCodeGenerator/QrCodeGenerator";
 import RandomColor from "./components/randomColor/RandomColor";
 import ScrollBar from "./components/scroll-bar/ScrollBar";
 import StarRating from "./components/starRating/StarRating";
+import SuggestionDropdown from "./components/suggestionDropdown/SuggestionDropdown";
 import TicTacToe from "./components/tictactoe/TicTacToe";
 import ToggleTheme from "./components/ToggleTheme/ToggleTheme";
 import "./index.css";
@@ -41,7 +42,9 @@ function App() {
       {/* Multi Tabs */}
       {/* <MultiTabs /> */}
       {/* Github user Details fetch */}
-      <GithubProfile url={"https://api.github.com/users"}/>
+      {/* <GithubProfile url={"https://api.github.com/users"}/> */}
+      {/* Suggestion dropdown menu */}
+      <SuggestionDropdown />
     </>
   );
 }
