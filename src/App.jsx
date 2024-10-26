@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       {/* Accordion */}
-      {/* <Accordion /> */}
+      {/* <Accordion /> */} 
       {/* Random Color Generator */}
       {/* <RandomColor /> */}
       {/* Star Rating */}
