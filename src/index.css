@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+  * {
+    @apply scroll-smooth;
+  }
+  .arrow {
+    @apply text-xl h-8 w-8 absolute top-1/2 -translate-y-1/2 text-white drop-shadow-md;
+  }
+  .arrow-left {
+    @apply left-8;
+  }
+  .arrow-right {
+    @apply right-8;
+  }
+  button {
+    @apply border border-gray-500 text-black bg-white px-4 py-2 hover:bg-black hover:text-white cursor-pointer;
+  }
+}
+/* index.css */
+
+:root {
+  /* Light Mode Colors */
+  --bg-light: #ffffff;
+  --text-light: #1a202c;
+  
+  /* Dark Mode Colors */
+  --bg-dark: #1a202c;
+  --text-dark: #f7fafc;
+}
+
+/* Dark mode class on html */
+html.dark-mode {
+  --bg-light: #1a202c;
+  --text-light: #f7fafc;
+}
+
