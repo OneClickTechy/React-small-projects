@@ -1,4 +1,6 @@
 import Accordion from "./components/Accordion/Accordion";
+import FeatureFlagGlobeState from "./components/FeatureFlag/Context/Context";
+import FeatureFlag from "./components/FeatureFlag/FeatureFlag";
 import GithubProfile from "./components/GithubProfile/GithubProfile";
 import ImageSlider from "./components/imageSlider/ImageSlider";
 import LoadMoreData from "./components/loadMore/LoadMoreData";
@@ -8,17 +10,22 @@ import PopupBox from "./components/Popup/PopupBox";
 import QrCodeGenerator from "./components/QrCodeGenerator/QrCodeGenerator";
 import RandomColor from "./components/randomColor/RandomColor";
 import ScrollBar from "./components/scroll-bar/ScrollBar";
+import ScrolltoSection from "./components/scroll-to-section/ScrolltoSection";
+import ScrolltoTopBottom from "./components/scroll-to-top-and-bottom/ScrolltoTopBottom";
 import StarRating from "./components/starRating/StarRating";
 import SuggestionDropdown from "./components/suggestionDropdown/SuggestionDropdown";
 import TicTacToe from "./components/tictactoe/TicTacToe";
 import ToggleTheme from "./components/ToggleTheme/ToggleTheme";
+import HookTest from "./components/useFetchHook/HookTest";
+import Test from "./components/useOutSideClick/Test";
+import WindowSizeHookTest from "./components/useWindowSize/Test2";
 import "./index.css";
 
 function App() {
   return (
     <>
       {/* Accordion */}
-      {/* <Accordion /> */} 
+      {/* <Accordion /> */}
       {/* Random Color Generator */}
       {/* <RandomColor /> */}
       {/* Star Rating */}
@@ -44,7 +51,21 @@ function App() {
       {/* Github user Details fetch */}
       {/* <GithubProfile url={"https://api.github.com/users"}/> */}
       {/* Suggestion dropdown menu */}
-      <SuggestionDropdown />
+      {/* <SuggestionDropdown /> */}
+      {/* Feature Flag Rendering */}
+      {/* <FeatureFlagGlobeState>
+        <FeatureFlag />
+      </FeatureFlagGlobeState> */}
+      {/* useFetch Hook */}
+      {/* <HookTest /> */}
+      {/* use outside click hook */}
+      {/* <Test /> */}
+      {/* useWindowSize hook */}
+      {/* <WindowSizeHookTest /> */}
+      {/* Scroll to Top & Bottom */}
+      {/* <ScrolltoTopBottom /> */}
+      {/* scroll to section */}
+      <ScrolltoSection />
     </>
   );
 }

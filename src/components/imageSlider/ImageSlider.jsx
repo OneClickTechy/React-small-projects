@@ -72,8 +72,8 @@ const ImageSlider = () => {
               <img
                 src={image.download_url}
                 alt={image.download_url}
+                key={index}
                 className={currentSlide === index ? null : `hidden`}
-                
               />
             );
           })}

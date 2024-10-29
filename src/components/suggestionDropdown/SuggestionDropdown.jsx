@@ -33,9 +33,9 @@ const SuggestionDropdown = () => {
     console.log(filterforSearch);
   }, [filterforSearch]);
   return (
-    <div className="w-full min-h-screen flex flex-col gap-4 justify-center items-center">
-      <div className="">
-        <p>Search User</p>
+    <div className="w-full min-h-screen flex flex-col gap-8 justify-center items-center">
+      <div className="flex flex-col gap-8">
+        <h1 className="text-4xl text-center ">Search User</h1>
         <div className="flex gap-4 justify-center items-center">
           <input
             type="text"
